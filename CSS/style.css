@@ -109,9 +109,21 @@ section {
 }
 
 .max-container {
-    padding: 4rem;
+    padding: 4rem 12rem;
     max-width: var(--size-max-width);
     margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 0.2px;
+    color: var(--color-black);
+}
+
+h3 {
+    font-size: 35px;
+    letter-spacing: 0.2px;
+    color: var(--color-black);
 }
 
 /* CSS Start */
@@ -149,6 +161,8 @@ section {
 
 /* Header */
 .header {
+    position: sticky;
+    top:0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,6 +207,7 @@ section {
     padding: 18px 34px;
     border-radius: 12px;
     margin-right: 1rem;
+    white-space: nowrap;
 }
 
 .header__contact2 {
@@ -202,6 +217,7 @@ section {
     padding: 18px 43px;
     border-radius: 12px;
     margin-right: 3.5rem;
+    white-space: nowrap;
 }
  /* home */
 
@@ -216,11 +232,6 @@ section {
     padding: 7rem 0;
 }
 
-h1 {
-    font-size: 60px;
-    letter-spacing: 0.2px;
-    color: var(--color-black);
-}
 
 .home__text {
     display: inline-block;
@@ -242,4 +253,40 @@ h1 {
 
 .home__mainimage {
     width: 70%;
+}
+
+/* main1 */
+.main1 {
+    margin: 4rem 0;
+}
+
+.main1__title {
+    display: flex;
+    align-items:end;
+    gap: 10px;
+}
+
+.main1__title__h1 {
+    color: var(--color-accent);
+}
+
+.main1__title__h1-2 {
+    color: var(--color-accent-variant);
+}
+
+.main1__title__h3 {
+    line-height: 75px;
+}
+
+.main1__description {
+    text-align: left;
+    padding-top: 1.3rem;
+    font-weight: 400;
+}
+
+.main1__sub-description {
+    text-align: left;
+    padding-top: 3.3rem;
+    font-weight: 400;
+    color: var(--color-primary-variant)
 }
