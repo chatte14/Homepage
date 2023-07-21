@@ -1,38 +1,205 @@
 /* Fonts */
 @font-face {
-    font-family: 'Spoqa Han Sans';
+    font-family: 'SpoqaHanSansNeo';
     font-weight: 700;
-    src: local('Spoqa Han Sans Bold'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Bold'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Spoqa Han Sans';
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Medium'),
+    url('../font') format('woff2'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff') format('woff'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
     font-weight: 400;
-    src: local('Spoqa Han Sans Regular'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
-    url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
-    url('../fonts/spoqa-han-sans/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Regular'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Spoqa Han Sans';
+    font-family: 'SpoqaHanSansNeo';
     font-weight: 300;
-    src: local('Spoqa Han Sans Light'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Light'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff2') format('woff2'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.woff') format('woff'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Spoqa Han Sans';
+    font-family: 'SpoqaHanSansNeo';
     font-weight: 100;
-    src: local('Spoqa Han Sans Thin'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
-    url('../fonts/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+    font-display: swap;
+    src: local('Spoqa Han Sans Neo Thin'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff2') format('woff2'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.woff') format('woff'),
+    url('../font/SpoqaHanSansNeo/SpoqaHanSansNeo-Thin.ttf') format('truetype');
 }
 
-*{ font-family: 'Spoqa Han Sans', 'Sans-serif'; }
+/* Global */
+:root {
+    /* App Colors */
+    --color-primary: var(--color-gray90);
+    --color-primary-variant: var(--color-gray50);
+    --color-accent: var(--color-blue);
+    --color-accent-variant: var(--color-lightblue);
+    --color-text: var(--color-black);
+
+    /* Colors */
+    --color-white: #ffffff;
+    --color-black: #222222;
+    --color-gray90: #454545;
+    --color-gray50: #7C7C7C;
+    --color-blue: #004FFF;
+    --color-lightblue: #1F90F9;
+
+    /* Size */
+    --size-max-width: 1200px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SpoqaHanSans', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,p,ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+button {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+
+button:focus {
+    outline: 1px solid var(--color-accent);
+}
+
+/* Common 공통 부분 스타일링 */
+.section {
+    text-align: center;
+}
+
+.max-container {
+    padding: 4rem;
+    max-width: var(--size-max-width);
+    margin: auto;
+}
+
+/* CSS Start */
+
+/* Topbar */
+.topbar {
+    margin: 1rem 0 0 0;
+    text-align: right;
+}
+
+.topbar__group {
+    position: relative;
+    margin-right: 5rem;
+}
+
+.topbar__text {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 0.3rem;
+}
+
+.topbar__ic {
+    position: absolute;
+}
+
+.topbar:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    background-color: #ededed;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-white);
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    height: 108px;
+    gap: 7rem;
+    margin: 0 60px;
+}
+
+.header__logo {
+    width: 142px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 3rem;
+    white-space: nowrap;
+}
+
+.header__menu__item {
+    font-size: 20px;
+    font-weight:500;
+    color: var(--color-primary-variant);
+}
+
+.header__menu__item.active {
+    color: var(--color-primary);
+    font-weight:700;
+}
+
+.header__contact1 {
+    background-color: var(--color-accent-variant);
+    color: var(--color-white);
+    font-size: 18px;
+    padding: 18px 34px;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.header__contact2 {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-size: 18px;
+    padding: 18px 43px;
+    border-radius: 12px;
+    margin-right: 3.5rem;
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO(search engine): 웹사이트를 설명하는 데이터 -->
-    <title>Simnote Homepage</title>
+    <title>Simnote</title>
     <meta name="description" content="Homepage for world-renowned designer Hyeri" />
     <meta name="author" content="Simnote" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -14,10 +14,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="배포 후 생성된 링크" />
     <meta property="og:image" content="배포 후 생성된 이미지 링크" />
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
     <!-- Font Awesome :https://fontawesome.com/ -->
     <script src="https://kit.fontawesome.com/25a43fd55a.js" crossorigin="anonymous"></script>
     <!-- CSS -->
@@ -26,6 +22,27 @@
     <script src="src/main.js" defer></script>
 </head>
 <body>
-    
+    <!-- app download-button -->
+    <div class="topbar">
+        <div class="topbar__group">
+            <a class="topbar__text" href="https://play.google.com/store/apps/   details?id=kr.onekey.sn&hl=bs&pli=1">APP 다운로드</a>
+            <img class="topbar__ic" src="images/ic_appdownload.svg"     alt="download-icon">
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="header__nav">
+            <a href="#"><img class="header__logo" src="images/img_mainlogo.png" alt="simnote-logo"></a>
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">심노트 서비스</a></li>
+                <li><a class="header__menu__item" href="#guide">이용안내</a></li>
+                <li><a class="header__menu__item" href="#inrtuduce">회사소개</a></li>
+            </ul>
+        </nav>
+        <div class="header__button">
+            <a class="header__contact1" href="https://docs.google.com/forms/d/e/1FAIpQLSekCYJn2QkZ_AREznibvfy02XthigaQPM_pGp0KP_PozewacA/viewform">심노트 소개서 다운</a>
+            <a class="header__contact2" href="https://docs.google.com/forms/d/e/1FAIpQLSekCYJn2QkZ_AREznibvfy02XthigaQPM_pGp0KP_PozewacA/viewform">운송사 신청 문의</a>
+        </div>
+    </header>
 </body>
 </html>
