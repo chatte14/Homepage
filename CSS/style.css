@@ -328,7 +328,7 @@ p {
 .main1__title {
     display: flex;
     align-items:end;
-    gap: 14px;
+    gap: 1rem;
 }
 
 .main1__title__h1 {
@@ -937,7 +937,12 @@ p {
     }
 
     #main1 {
-        padding: 5.2rem 0 7.7rem 0;
+        padding: 5.2rem 0 7.6rem 0;
+    }
+    
+    .main1__title {
+        margin-bottom: -1.1rem;
+        gap: 11px;
     }
 
     .main1__title__h1 {
@@ -949,7 +954,7 @@ p {
     }
 
     .main1__description {
-        padding-top: 0.7rem;
+        padding-top: 1rem;
     }
 
     .main1__sub-description {
