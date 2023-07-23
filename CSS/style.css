@@ -691,6 +691,11 @@ p {
         font-size: 17px;
     }
 
+    .home__mainimage {
+        width: 90%;
+        min-width: 800px;
+    }
+
     .main2__group {
         gap: 6rem;
     }
@@ -740,15 +745,16 @@ p {
         line-height: 29px;
     }
     
+    .home__mainimage {
+        width: 90%;
+        min-width: 800px;
+    }
+
     .main1__sub-description {
         margin-bottom: -1.5rem;
     }
 
     .header__menu {
-        display: none;
-    }
-
-    .home__circle {
         display: none;
     }
 
@@ -768,52 +774,52 @@ p {
         line-height: 42px;
 }
 
-.main3__title1 {
-    margin-top: 2rem;
-    margin-bottom: 5.3rem;
+    .main3__title1 {
+        margin-top: 2rem;
+        margin-bottom: 5.3rem;
+    }
+
+    .main3__title2 {
+        margin-top: 3.4rem;
+        margin-bottom: -6rem;
+    }
+
+    #about {
+        margin-bottom: -4.5rem;
+    }
+
+    #news {
+        padding-top: 3.6rem;
+    }
+
+    .news__title {
+        margin-bottom: 4.5rem;
+    }
+
+    .news__group {
+        padding-bottom: 6rem;
+        gap: 5rem;
+    }
+
+    .news__group__title {
+        margin-bottom: 1rem;
+        font-size: 23px;
+        line-height: 38px;
+    }
+
+    .news__group__description {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .footer__description {
+        margin-bottom: 1rem;
+        font-size: 16px;
+    }
+
 }
 
-.main3__title2 {
-    margin-top: 3.4rem;
-    margin-bottom: -6rem;
-}
-
-#about {
-    margin-bottom: -4.5rem;
-}
-
-#news {
-    padding-top: 3.6rem;
-}
-
-.news__title {
-    margin-bottom: 4.5rem;
-}
-
-.news__group {
-    padding-bottom: 6rem;
-    gap: 5rem;
-}
-
-.news__group__title {
-    margin-bottom: 1rem;
-    font-size: 23px;
-    line-height: 38px;
-}
-
-.news__group__description {
-    font-size: 15px;
-    line-height: 26px;
-}
-
-.footer__description {
-    margin-bottom: 1rem;
-    font-size: 16px;
-}
-
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .max-container {
         padding: 0 2rem;
     }
@@ -864,6 +870,7 @@ p {
     }
 
     .home__circle {
+        display: none;
         width: 185px;
         margin: -5px 0 0 -26px;
     }
