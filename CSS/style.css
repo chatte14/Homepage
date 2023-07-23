@@ -1062,6 +1062,7 @@ p {
         padding: 10px 10px 5px 10px;
         border-radius: 1rem;
         margin-right: 1.7rem;
+        margin-left: -0.5rem;
         box-shadow: rgba(46, 81, 116, 0.2) 0px 8px 24px;
     }
 
