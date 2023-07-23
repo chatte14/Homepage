@@ -118,6 +118,7 @@ h1 {
     font-size: 60px;
     letter-spacing: 0.2px;
     color: var(--color-black);
+    word-break: keep-all;
 }
 
 h2 {
@@ -125,6 +126,7 @@ h2 {
     letter-spacing: 0.2px;
     color: var(--color-black);
     line-height: 71px;
+    word-break: keep-all;
 }
 
 h3 {
@@ -132,6 +134,7 @@ h3 {
     letter-spacing: 0.2px;
     color: var(--color-black);
     line-height: 55px;
+    word-break: keep-all;
 }
 
 p {
@@ -139,6 +142,7 @@ p {
     letter-spacing: 0.2px;
     color: var(--color-primary-variant);
     line-height: 37px;
+    word-break: keep-all;
 }
 
 /* CSS Start */
@@ -1009,7 +1013,7 @@ p {
     }
 
     #footer {
-        padding: 5rem 0;
+        padding: 5rem 2rem;
     }
 
     .footer__description {
