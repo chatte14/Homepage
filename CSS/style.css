@@ -894,6 +894,10 @@ p {
         margin-top: -1rem;
     }
 
+    .home__divider {
+        display: none;
+    }
+
     #main1 {
         padding: 5.5rem 0 6.5rem 0;
     }
