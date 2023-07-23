@@ -874,7 +874,7 @@ p {
     } */
 
     .home__title {
-        margin: -3rem 1.2rem -3rem 1.2rem;
+        margin: -3rem 1.2rem -4.2rem 1.2rem;
     }
 
     .home__circle {
@@ -1058,4 +1058,21 @@ p {
     .footer__link {
         font-size: 14px;
     }
+
+    /* Arrow up */
+.arrow-up {
+    background-color: #e8e8e8;
+    color: var(--color-white);
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    box-shadow: 4.5px 4.5px 0px 0px var(--color-white);
+}
+
 }
