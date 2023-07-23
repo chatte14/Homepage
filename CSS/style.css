@@ -293,6 +293,10 @@ p {
     min-width: 900px;
 }
 
+.home__mainimage--mobile {
+    display: none;
+}
+
 .home__divider {
     position: absolute;
     left: 0;
@@ -861,12 +865,12 @@ p {
         display: none;
     }
 
-    #home {
+    /* #home {
         padding: 0 2rem;
-    }
+    } */
 
     .home__title {
-        margin-top: -2rem;
+        margin-top: -2.5rem;
     }
 
     .home__circle {
@@ -880,7 +884,14 @@ p {
     }
 
     .home__mainimage {
-        min-width: 100%;
+        display: none;
+    }
+
+    .home__mainimage--mobile {
+        display:block;
+        width: 100%;
+        min-width: 360px;
+        margin-top: -1rem;
     }
 
     #main1 {
