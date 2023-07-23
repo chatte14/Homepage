@@ -117,6 +117,7 @@ section {
 
 h1 {
     font-size: 60px;
+    line-height: 100px;
     letter-spacing: 0.2px;
     color: var(--color-black);
     word-break: keep-all;
@@ -209,6 +210,7 @@ p {
     display: flex;
     gap: 3rem;
     white-space: nowrap;
+    padding-top: 0.55rem;
 }
 
 .header__menu__item {
@@ -326,7 +328,7 @@ p {
 .main1__title {
     display: flex;
     align-items:end;
-    gap: 10px;
+    gap: 14px;
 }
 
 .main1__title__h1 {
@@ -338,7 +340,7 @@ p {
 }
 
 .main1__title__h3 {
-    line-height: 75px;
+    line-height: 5.6rem;
 }
 
 .main1__description {
@@ -507,6 +509,10 @@ p {
     margin-bottom: 4rem;
 }
 
+.download__button--mobile {
+    display: none;
+}
+
 .download__button1 {
     background-color: var(--color-white);
     color: var(--color-black);
@@ -654,12 +660,13 @@ p {
 /* 반응형 스타일링 */
 @media screen and (max-width: 1300px) {
     h1 {
-        font-size: 57px;
+        font-size: 59px;
+        line-height: 95px;
     }
 
     h2 {
         font-size: 42px;
-        line-height: 64px;
+        line-height: 66px;
     }
 
     h3 {
@@ -669,7 +676,7 @@ p {
 
     p {
         font-size: 19px;
-        line-height: 31px;
+        line-height: 32px;
     }
 
     .header__nav {
@@ -700,13 +707,30 @@ p {
         font-size: 17px;
     }
 
+    .home__circle {
+        margin-top: -3px;
+        margin-left: -4px;
+    }
+
     .home__mainimage {
         width: 90%;
         min-width: 800px;
     }
 
+    .main1__title__h3 {
+        line-height: 5.1rem;
+    }
+
+    .main2__title {
+        margin-bottom: 4.7rem;
+    }
+
     .main2__group {
         gap: 6rem;
+    }
+
+    .main2__group__title {
+        line-height: 51px;
     }
 
     .main3__title1 {
@@ -715,6 +739,10 @@ p {
 
     .main3__title2 {
         margin-bottom: -3.3rem;
+    }
+
+    .news__title {
+        margin-bottom: 4.7rem;
     }
 
     .news__group {
@@ -735,13 +763,13 @@ p {
 
 @media screen and (max-width: 1100px) {
     h1 {
-        font-size: 58px;
-        line-height: 90px;
+        font-size: 57px;
+        line-height: 92px;
     }
 
     h2 {
-        font-size: 40px;
-        line-height: 63px;
+        font-size: 39px;
+        line-height: 62px;
     }
     
     h3 {
@@ -759,6 +787,10 @@ p {
         min-width: 800px;
     }
 
+    .main1__title__h3 {
+        line-height: 5rem;
+    }
+
     .main1__sub-description {
         margin-bottom: -1.5rem;
     }
@@ -768,7 +800,7 @@ p {
     }
 
     .main2__title {
-        margin-bottom: 4.5rem;
+        margin-bottom: 4.1rem;
         margin-top: -1.5rem;
     }
 
@@ -811,7 +843,7 @@ p {
     }
 
     .news__group__title {
-        margin-bottom: 1rem;
+        margin-bottom: 0.8rem;
         font-size: 23px;
         line-height: 38px;
     }
@@ -828,7 +860,7 @@ p {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
     .max-container {
         padding: 0 2rem;
     }
@@ -932,6 +964,10 @@ p {
         display: none;
     }
 
+    .main2__group--2 {
+        display: block;
+    }
+
     .main2__title {
         text-align: center;
         margin-bottom: 2.8rem;
@@ -978,7 +1014,7 @@ p {
 
     .main2__group__img2 {
         padding-top: 1rem;
-        margin-bottom: -1rem;
+        margin-bottom: -0.5rem;
     }
 
     .main3__img {
@@ -987,12 +1023,12 @@ p {
 
     .main3__title1 {
         text-align: center;
-        margin-bottom: -2rem;
+        margin-bottom: -1.9rem;
     }
 
     .main3__title2 {
         text-align: center;
-        margin-bottom: -3.6rem;
+        margin-bottom: -3.8rem;
     }
 
     .about {
@@ -1004,15 +1040,30 @@ p {
     }
 
     .download__title {
-        padding-top: 6rem;
+        padding-top: 5.1rem;
+    }
+    
+    .download__button--web {
+        display: none;
+    }
+
+    .download__button--mobile {
+        display: block;
+        margin-top: -1.6rem;
+        margin-bottom: -4rem;
     }
 
     .download__button1 {
-        display: none;
+        padding: 10px 10px 5px 10px;
+        border-radius: 1rem;
+        margin-right: 1.7rem;
+        box-shadow: rgba(46, 81, 116, 0.2) 0px 8px 24px;
     }
 
     .download__button2 {
-        display: none;
+        padding: 10px 10px 5px 10px;
+        border-radius: 1rem;
+        box-shadow: rgba(46, 81, 116, 0.2) 0px 8px 24px;
     }
 
     .download__divider {
