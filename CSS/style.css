@@ -385,6 +385,10 @@ p {
     gap: 9rem;
 }
 
+.main2__group--2 {
+    display: none;
+}
+
 .main2__img {
     width: 46%;
     border-radius: 28px;
@@ -823,7 +827,7 @@ p {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 764px) {
     .max-container {
         padding: 0 2rem;
     }
@@ -870,7 +874,7 @@ p {
     } */
 
     .home__title {
-        margin-top: -2.5rem;
+        margin: -3rem 1.2rem -3rem 1.2rem;
     }
 
     .home__circle {
@@ -890,8 +894,9 @@ p {
     .home__mainimage--mobile {
         display:block;
         width: 100%;
+        max-width: 600px;
         min-width: 360px;
-        margin-top: -1rem;
+        margin:auto;
     }
 
     .home__divider {
@@ -899,7 +904,7 @@ p {
     }
 
     #main1 {
-        padding: 5.5rem 0 6.5rem 0;
+        padding: 5.2rem 0 7.7rem 0;
     }
 
     .main1__title__h1 {
@@ -922,6 +927,10 @@ p {
         flex-direction: column;
     }
 
+    .main2__group--1 {
+        display: none;
+    }
+
     .main2__title {
         text-align: center;
         margin-bottom: 2.8rem;
@@ -938,14 +947,17 @@ p {
 
     .main2__img {
         width: 100%;
+        max-width: 500px;
         min-width: 300px;
     }
 
     .main2__group__text {
+        max-width: 500px;
         width: 100%;
     }
 
     .main2__group__text2 {
+        max-width: 500px;
         width: 100%;
     }
 
@@ -965,7 +977,7 @@ p {
 
     .main2__group__img2 {
         padding-top: 1rem;
-        margin-bottom: -1.5rem;
+        margin-bottom: -1rem;
     }
 
     .main3__img {
@@ -979,7 +991,7 @@ p {
 
     .main3__title2 {
         text-align: center;
-        margin-bottom: -4.5rem;
+        margin-bottom: -4rem;
     }
 
     .about {
