@@ -941,8 +941,8 @@ p {
     }
     
     .main1__title {
-        margin-bottom: -1.1rem;
-        gap: 11px;
+        margin-bottom: -1.3rem;
+        gap: 9px;
     }
 
     .main1__title__h1 {
@@ -954,7 +954,7 @@ p {
     }
 
     .main1__description {
-        padding-top: 1rem;
+        padding-top: 1.3rem;
     }
 
     .main1__sub-description {
@@ -991,6 +991,7 @@ p {
         width: 100%;
         max-width: 500px;
         min-width: 300px;
+        border-radius: 19px;
     }
 
     .main2__group__text {
@@ -1019,7 +1020,7 @@ p {
 
     .main2__group__img2 {
         padding-top: 1rem;
-        margin-bottom: -0.5rem;
+        margin-bottom: -0.3rem;
     }
 
     .main3__img {
@@ -1033,7 +1034,7 @@ p {
 
     .main3__title2 {
         text-align: center;
-        margin-bottom: -3.8rem;
+        margin-bottom: -3.2rem;
     }
 
     .about {
