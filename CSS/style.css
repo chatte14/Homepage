@@ -162,6 +162,7 @@ p {
 
 .topbar__text {
     font-size: 16px;
+    line-height: 28px;
     font-weight: 700;
     margin-right: 0.3rem;
 }
@@ -233,7 +234,7 @@ p {
     background-color: var(--color-accent-variant);
     color: var(--color-white);
     font-size: 18px;
-    padding: 17px 34px 18px 34px;
+    padding: 18px 34px 18px 34px;
     border-radius: 12px;
     margin-right: 1rem;
     white-space: nowrap;
@@ -248,7 +249,7 @@ p {
     background-color: var(--color-accent);
     color: var(--color-white);
     font-size: 18px;
-    padding: 17px 43px 18px 43px;
+    padding: 18px 43px 18px 43px;
     border-radius: 12px;
     margin-right: 3.5rem;
     white-space: nowrap;
@@ -446,6 +447,10 @@ p {
 
 .main3__title2__span {
     color: var(--color-accent);
+}
+
+.main3__button {
+    display: none;
 }
 
 #about {
@@ -1035,6 +1040,43 @@ p {
     .main3__title2 {
         text-align: center;
         margin-bottom: -3.2rem;
+    }
+
+    .main3__button {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 6.5rem;
+        width: 17.5rem;
+    }
+
+    .main3__contact1 {
+        background-color: var(--color-accent-variant);
+        color: var(--color-white);
+        font-size: 18px;
+        padding: 18px 30px 18px 30px;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        white-space: nowrap;
+        transition: 250ms ease-out;
+    }
+    
+    .main3__contact1:hover {
+        background-color: var(--color-accent);
+    }
+    
+    .main3__contact2 {
+        background-color: var(--color-accent);
+        color: var(--color-white);
+        font-size: 18px;
+        padding: 18px 30px 18px 30px;
+        border-radius: 12px;
+        white-space: nowrap;
+        transition: 250ms ease-out;
+    }
+    
+    .main3__contact2:hover {
+        background-color: var(--color-accent-variant);
     }
 
     .about {
