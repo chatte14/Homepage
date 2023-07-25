@@ -1184,6 +1184,10 @@ p {
         padding: 0 2rem;
     }
 
+    .home__title {
+        padding-top: 108px;
+    }
+
     .home__text--mobile {
     font-size: 31px;
     line-height: 49px;
@@ -1192,12 +1196,13 @@ p {
     .home__text {
         font-size: 31px;
         line-height: 49px;
+        margin-right: -2px;
     }
 
     .home__circle__text {
         display: block;
-        font-size: 68px;
-        padding-top: 1.9rem;
+        font-size: 70px;
+        padding-top: 1.7rem;
         background: linear-gradient(225deg,#004cff, #8ee1ff,#1F90F9, #004FFF, #0137ac);
         color: transparent;
         -webkit-background-clip: text;
