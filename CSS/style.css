@@ -923,12 +923,11 @@ p {
     }
 
     .header__contact2--mobile {
-        background-color: var(--color-accent);
-        color: var(--color-white);
-        filter: opacity(90%);
+        background-color: #ebefff;
+        color: var(--color-accent);
         display: block;
         font-size: 0.9rem;
-        padding: 12px 1rem;
+        padding: 11.5px 1rem 12px 1rem;
         border-radius: 12px;
         margin-right: 1.3rem;
         white-space: nowrap;
