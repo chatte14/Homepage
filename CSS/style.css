@@ -1034,11 +1034,15 @@ p {
 
     .main3__title1 {
         text-align: center;
+        font-size: 26.5px;
+        line-height: 40px;
         margin-bottom: -1.9rem;
     }
 
     .main3__title2 {
         text-align: center;
+        font-size: 26.5px;
+        line-height: 40px;        
         margin-bottom: -3.2rem;
     }
 
@@ -1081,7 +1085,7 @@ p {
 
     .about {
         text-align: center;
-        margin-top: -0.7rem;
+        margin-top: -1rem;
     }
 
     #download {
