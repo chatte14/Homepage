@@ -1025,7 +1025,7 @@ p {
 
     .main2__group__img2 {
         padding-top: 1rem;
-        margin-bottom: -0.3rem;
+        margin-bottom: 0.7rem;
     }
 
     .main3__img {
@@ -1047,7 +1047,7 @@ p {
         flex-direction: column;
         margin: auto;
         padding-top: 6.5rem;
-        width: 17.5rem;
+        width: 16rem;
     }
 
     .main3__contact1 {
@@ -1081,6 +1081,7 @@ p {
 
     .about {
         text-align: center;
+        margin-top: -0.7rem;
     }
 
     #download {
