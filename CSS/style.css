@@ -867,7 +867,7 @@ p {
 
 @media screen and (max-width: 890px) {
     .max-container {
-        padding: 0 2rem;
+        padding: 0 6rem;
     }
 
     h1 {
@@ -1177,3 +1177,34 @@ p {
 }
 
 }
+
+@media screen and (max-width: 700px) {
+    .max-container {
+        padding: 0 2rem;
+    }
+
+    .home__text--mobile {
+    font-size: 31px;
+    line-height: 49px;
+    }
+
+    .home__text {
+        font-size: 31px;
+        line-height: 49px;
+    }
+
+    .home__circle__text {
+        display: block;
+        font-size: 68px;
+        padding-top: 1.9rem;
+        background: linear-gradient(225deg,#004cff, #8ee1ff,#1F90F9, #004FFF, #0137ac);
+        color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .home__mainimage--mobile {
+        max-width: 650px;
+        margin-top: 0.5rem;
+    }
+}
+
