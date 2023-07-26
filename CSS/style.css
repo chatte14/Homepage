@@ -632,7 +632,7 @@ p {
     text-align: center;
     padding-top: 0.2rem;
     box-shadow: 4.5px 4.5px 0px 0px var(--color-white);
-    transition: 200ms ease-out;
+    transition: 250ms ease-out;
 }
 
 .arrow-up:hover {
