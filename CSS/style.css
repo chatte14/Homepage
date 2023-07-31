@@ -1092,7 +1092,7 @@ p {
         max-width: 500px;
         min-width: 300px;
         border-radius: 14px;
-        transition: all 800ms ease-in-out;
+        transition: none;
     }
 
     .main2__img-2 {
@@ -1100,8 +1100,9 @@ p {
         max-width: 500px;
         min-width: 300px;
         border-radius: 14px;
-        transition: all 800ms ease-in-out;
+        transition: none;
     }
+    
 
     .main2__group__text {
         max-width: 500px;
