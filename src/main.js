@@ -1,3 +1,14 @@
+// 홈 섹션을 스크롤 할 때 홈 안에 내용을 투명도 주면서 자연스럽게 스크롤되게 표현함
+
+const home = document.querySelector('.home__container');
+
+const homeHeight = home.offsetHeight;
+
+document.addEventListener('scroll', () => {
+    home.style.opacity = 1.5 - window.scrollY / homeHeight;
+});
+
+
 let observerRight = new IntersectionObserver((e)=>{
     e.forEach((main2Text)=>{
         if(main2Text.isIntersecting){
