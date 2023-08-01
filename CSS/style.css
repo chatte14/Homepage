@@ -167,9 +167,9 @@ p {
 
 .topbar__text {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 29px;
     font-weight: 700;
-    margin-right: 0.3rem;
+    padding-right: 0.3rem;
 }
 
 .topbar__ic {
@@ -779,12 +779,12 @@ p {
     }
     
     .header__contact1 {
-        padding: 16px 18px 19px 18px;
+        padding: 17.5px 18px 18.5px 18px;
         font-size: 17px;
     }
 
     .header__contact2 {
-        padding: 16px 27px 19px 27px;
+        padding: 18px 27px 19px 27px;
         font-size: 17px;
     }
 
