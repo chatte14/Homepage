@@ -83,7 +83,7 @@ body {
     font-family: 'SpoqaHanSans', sans-serif;
     margin: 0;
     max-width: 100%;
-    overflow-x :  hidden;
+    /* overflow-x :  hidden; */
 }
 
 h1,h2,h3,p,ul {
