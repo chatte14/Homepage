@@ -5,7 +5,7 @@ const home = document.querySelector('.home__container');
 const homeHeight = home.offsetHeight;
 
 document.addEventListener('scroll', () => {
-    home.style.opacity = 1.5 - window.scrollY / homeHeight;
+    home.style.opacity = 1.7 - window.scrollY / homeHeight;
 });
 
 
