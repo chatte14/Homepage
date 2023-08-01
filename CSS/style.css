@@ -693,8 +693,8 @@ p {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 100%;
+    line-height: 3.4rem;
     text-align: center;
-    padding-top: 0.2rem;
     box-shadow: 4.5px 4.5px 0px 0px var(--color-white);
     transition: 250ms ease-out;
 }
@@ -1291,7 +1291,7 @@ p {
     height: 2.8rem;
     border-radius: 100%;
     text-align: center;
-    padding-top: 0.2rem;
+    line-height: 2.7rem;
     box-shadow: 4.5px 4.5px 0px 0px var(--color-white);
 }
 
