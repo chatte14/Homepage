@@ -8,6 +8,49 @@ document.addEventListener("scroll", () => {
   home.style.opacity = 1.6 - window.scrollY / homeHeight;
 });
 
+//숫자 카운트
+const counter = ($counter, max) => {
+  let now = max;
+
+  const handle = setInterval(()=>{
+    $counter.innerHTML = Math.ceil(max - now);
+
+    //목표수치에 도달하면 정지
+    if (now < 1) {
+      clearInterval(handle);
+    }
+
+    //증가되는 값이 계속하여 작아짐
+    const step = now / 10;
+
+    //값을 적용시키면서 다음 차례에 영향을 끼침
+    now -= step;
+  }, 40);
+}
+
+window.onload = () => {
+  //카운터를 적용시킬 요소
+  const $counter = document.querySelector(".count");
+  //목표 수치
+  const max = 90;
+
+  setTimeout(() => counter($counter, max), 1000);
+};
+
+window.addEventListener('load', () => {
+  //카운터를 적용시킬 요소
+  const $counter = document.querySelector(".count2");
+  //목표 수치
+  const max = 2000;
+
+  setTimeout(() => counter($counter, max), 1000);
+});
+
+//숫자 카운트 스크롤 이벤트
+
+
+
+
 const addLoadFlagToTarget = (target) => {
   for (let i = 0; i < target.length; i++) {
     target[i].isLoaded = false; // 한번 화면에 실행되었다는 표시를 추가; 초기는 실행이 안되었기 떄문에 false
