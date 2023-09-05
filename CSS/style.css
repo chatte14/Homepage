@@ -605,7 +605,7 @@ p {
     color: var(--color-black);
     display: inline-block;
     gap: 80px;
-    padding: 9px 45px 6px 45px;
+    padding: 10px 43px 6px 45px;
     border-radius: 12px;
     margin-right: -0.2rem;
     white-space: nowrap;
