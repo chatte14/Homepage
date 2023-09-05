@@ -610,6 +610,9 @@ p {
     margin-right: -0.2rem;
     white-space: nowrap;
     transition: 200ms ease-out;
+    image-rendering:-webkit-optimize-contrast;
+    transform:translateZ(0);
+    backface-visibility:hidden;
 }
 
 .download__button2:hover {
